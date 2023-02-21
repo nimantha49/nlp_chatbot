@@ -1,0 +1,262 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What’s up?"
+
+      ],
+      "responses": [
+        "Hey!",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Have a good day"
+        
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "It’s a pleasure", "Pleasure to help you!"]
+    },
+
+    {
+      "tag": "history",
+      "patterns": [
+        "What is SLTC?", 
+        "What is sltc?", 
+        "SLTC History", 
+        "SLTC Founder", 
+        "When was SLTC established?", 
+        "What is the origin of SLTC?"
+      ],
+      "responses": [
+        "Founded in 2015, as a subsidiary of Sri Lanka Telecom, its main campus is located at the 36 acre former Satellite Station premises in Padukka. SLT Campus's School of Professional Studies is located at the TRACE Expert City in Colombo. It is the first corporate funded, fully residential private research university in Sri Lanka. Through Sri Lanka Telecom, it came under the Ministry of Telecommunication and Digital Infrastructure."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Courses in SLTC",
+        "degrees offered",
+        "What kind of courses do you have?",
+        "What kinds of courses are there?",
+        "What are the degree programs you offer?"
+      ],
+      "responses": [
+        "We have degree programs in the fields of IT, Technology, Engineering, Business and Music",
+        "We have courses in 5 different fields. IT, Technology, Engineering, Business and Music"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?",
+        "How can I pay the course fees?",
+        "What are the payment methods available?"
+      ],
+      "responses": [
+        "You can use any one of the following methods to make your payments.  1. Pay Online via https://mpg.seylan.lk/sltc  2. Head to the University Student Services Unit and make your payments via cash, credit or debit cards. 3. Make a deposit at any one of the following banks and submit the slip to obtain the receipt for the payment."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What will be the fee of a course?",
+        "How much does it cost for a degree program?",
+        "what are the fee structure for the courses?",
+        "what is the fee structure?",
+        "What is the cost of a degree program or course?"
+      ],
+      "responses": [
+        "The cost varies from LKR 1,500,000 to LKR 2,500,000 for a degree program. 3 year degree programs start with a cost of 1,500,000LKR and 4 year degree programs costs around 1,800,000 to 2,500,000. To find out more about course fee please visit https://sltc.ac.lk/admissions/fees-scholarships/ "
+      ]
+    },
+
+   
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Is residence guaranteed?",
+        "Do you offer hostel facilities?",
+        "yall provide hostel facilities?",
+        "Is hostel available?",
+        "Does the campus have Hostel facilities?"
+      ],
+      "responses": [
+        "Yes we offer hostel for any student from any batch",
+        "Yes campus offer hostel facilities for any student. You can find more info via contacting the admin office"
+      ]
+        
+    },
+
+    {
+      "tag": "ranking",
+      "patterns": [
+        "How does your university score in major rankings?",
+        "How does sltc score in rankings?",
+        "How does SLTC score in rankings?",
+        "What is the rank of SLTC?"
+      ],
+      "responses": [
+        "SLTC holds the 18th rank in Sri Lanka's Top Universities in 2023"
+      ]
+        
+    },
+
+    {
+      "tag": "studentLife",
+      "patterns": [
+        "What’s it like to be a student at your university?",
+        "What’s it like to be a student at SLTC?",
+        "How is students' life at SLTC?",
+        "How is students life at SLTC?",
+        "How is students life at sltc?"
+
+      ],
+      "responses": [
+        "From the environment of the campus, to student clubs, to mental health supports, to athletics, there are many variables that will impact your time on campus.."
+
+      ]
+    },
+
+    {
+      "tag": "sports",
+      "patterns": [
+        "What are the available sports?",
+        "Sports at SLTC",
+        "Can we play sports at campus?"
+      ],
+      "responses": [
+        "There are many sports such as cricket, volleyball, netball, basketball, swimming, carrom, chess and many more."
+      ]
+    },
+
+   {
+    "tag": "club",
+    "patterns": [
+      "What are the clubs and societies available at SLTC?",
+      "Clubs at SLTC",
+      "Clubs and activities at SLTC",
+      "Can students engage in clubs at SLTC?"
+    ],
+    "responses": [
+      "There are many clubs for students at SLTC such as IEEE, LEO, AIESEC, Green Army, Get Sync and many more."
+    ]
+  }, 
+
+  {
+    "tag": "biology",
+    "patterns": [
+      "What are the degrees related to biology?",
+      "What are the degrees related to biology offered at SLTC?",
+      "Degrees for biology students at SLTC?",
+      "I did biology for my A/Ls, what degree I can follow?",
+      "What can be done for biology students?"
+    ],
+    "responses": [
+      "There are 3 degrees that are available for students who have done biology for their A/Ls. You can follow BSc Hons. (Bio Systems Engineering), BTech Hons. (Agricultural Technology), BTech Hons. (Environmental Technology) in SLTC School of Science. "
+    ]
+  },
+
+  {
+    "tag": "maths",
+    "patterns": [
+      "What are the degrees related to maths?",
+      "What are the degrees related to maths offered at SLTC?",
+      "Degrees for maths students at SLTC?",
+      "I did physical science for my A/Ls, what degree I can follow?",
+      "I did maths for my A/Ls, what degree I can follow?",
+      "What can be done for physical science stream students?"
+    ],
+    "responses": [
+      "There are many degrees that are available for students who have done physical science (maths) for their A/Ls. You can follow any degree in the field of Electrical & Electronics, Mechanical & Mechatronics, Electronics and Telecommunication, Software Engineering, Data Science and Aerospace Engineering as per your preference. "
+    ]
+  },
+
+  {
+    "tag": "scholarship",
+    "patterns": [
+      "What are the scholarships provided by SLTC?",
+      "What are the scholarships related to engineering degrees offered at SLTC?",
+      "Can students apply for scholarships at SLTC?",
+      "Is there any scholarships offered by campus?"
+    ],
+    "responses": [
+      "ENTECH Merit Based Youth Scholarship   -   Introduced for the first time in Sri Lanka,the ENTECH Merit based Youth Scholarship offers scholarships up to 60% of the tuition fee to every student based on their results at the advanced level examination. This scholarship is open for all study pathways. Apply at Registration. Please visit https://sltc.ac.lk/admissions/fees-scholarships/ to find out more."
+    ]
+  }, 
+
+  {
+    "tag": "loan",
+    "patterns": [
+      "Are there any loans available for students?",
+      "Can I apply for an educational loan?",
+      "Can I have financial aid for my degree?"
+    ],
+    "responses": [
+      "Yes, SLTC offers several education loan facilities with multiple financial institutions. This facility is applicable for all programmes and can be tailored to suit applicant’s requirements."
+    ]
+  }, 
+
+  {
+    "tag": "internship",
+    "patterns": [
+      "Are internships a part of these degree programmes?",
+      "Internships related to the field?",
+      "What is the internship status of students?",
+      "Do yall provide Internships for the students??",
+      "Is there any internships provided at SLTC?"
+    ],
+    "responses": [
+      "Yes, a 6 months internship period is included for all the degree programs offered in School of Computing, School of Engineering, School of Business and School of Technology."
+    ]
+  }, 
+
+  {
+    "tag": "music",
+    "patterns": [
+      "What are the degrees related to music?",
+      "What are the degrees related to music offered at SLTC?",
+      "Is there any degree related to music?",
+      "is there a music school?",
+      "Music school available?"
+    ],
+    "responses": [
+      "At SLTC, we offer a degree in Bachelor of Music Honours."
+    ]
+  }, 
+
+  {
+    "tag": "facilities",
+    "patterns": [
+      "Does the university provide facilities such as labs, research centres?",
+      "Does the university provide facilities to students?",
+      "What are the facilities provided to the studnets?"
+    ],
+    "responses": [
+      "At SLTC, research facilities, hydrolic labs, electronic labs, environment labs, business incubators, clubs and societies are offered and available 24/7."
+    ]
+  }
+
+
+  ]
+}
